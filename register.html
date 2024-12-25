@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon Registration</title>
+
+    <!-- Load font Roboto from Google Fonts. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./styles/shared/general.css" />
+    <link rel="stylesheet" href="./styles/pages/register-signin.css" />
+    <link rel="stylesheet" href="./styles/shared/amazon-header.css" />
+  </head>
+  <body>
+    <div class="register-form-container">
+      <a href="index.html" class="header-link">
+        <img class="amazon-logo" src="images/amazon-logo.png" />
+        <img class="amazon-mobile-logo" src="images/amazon-mobile-logo.png" />
+      </a>
+
+      <form class="form-card">
+        <p class="form-title">Create account</p>
+
+        <div class="form-input-group">
+          <label for="name">Your name</label>
+          <input class="js-name-input" id="name" type="text" name="name" placeholder="First and last name" />
+          <div class="js-name-err input-err-msg hide-err" data-input-id="name"><i>!</i> Enter your name</div>
+          <div class="js-name-instruct input-instruct-msg hide-instruct"><i>*</i> Enter at least 1 character</div>
+        </div>
+
+        <div class="form-input-group">
+          <label for="email">Email</label>
+          <input class="js-email-input" id="email" type="email" name="email" />
+          <div class="js-email-err input-err-msg hide-err" data-input-id="email"><i>!</i> Enter your email</div>
+          <div class="js-email-instruct input-instruct-msg hide-instruct"><i>*</i> Enter a valid email</div>
+        </div>
+
+        <div class="form-input-group">
+          <label for="password">Password</label>
+          <input class="js-password-input" id="password" type="password" name="password" placeholder="At least 6 characters" />
+          <div class="js-password-err input-err-msg hide-err" data-input-id="password"><i>!</i> Enter a password</div>
+          <div class="js-password-instruct input-instruct-msg hide-instruct"><i>*</i> Enter least 6 characters</div>
+        </div>
+
+        <div class="form-input-group">
+          <label for="re-enter-password">Re-enter password</label>
+          <input class="js-re-enter-password-input" id="re-enter-password" type="password" name="re-enter-password" />
+          <div class="js-re-password-err input-err-msg hide-err" data-input-id="re-enter-password"><i>!</i> Type your password again</div>
+        </div>
+
+        <button type="submit" class="js-register-button button-primary register-button">Continue</button>
+      </form>
+    </div>
+  </body>
+  <script type="module" src="./scripts/signin-or-register/register.js"></script>
+</html>

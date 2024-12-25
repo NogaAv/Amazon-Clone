@@ -1,0 +1,81 @@
+.signin-lists-account-container {
+  background-color: white;
+  width: 500px;
+  min-height: 385;
+  margin-top: 3px;
+  margin-left: 2px;
+  border-radius: 3px;
+  font-size: 13px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.13);
+
+  overflow: visible;
+
+  display: flex;
+  flex-direction: column;
+
+  position: absolute;
+  top: 45px;
+  left: -260px;
+  z-index: 100;
+
+  display: none;
+}
+
+.signin-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid rgb(231, 229, 229);
+  padding: 14px;
+}
+
+.signin-link {
+  color: rgb(33, 33, 33);
+  background-color: rgb(255, 216, 20);
+  border: 1px solid rgb(252, 210, 0);
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
+
+  padding: 8px 90px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+
+.register-text a {
+  text-decoration: none;
+  color: rgb(65, 54, 224);
+}
+
+.lists-account-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.card {
+  border-right: 1px solid rgb(231, 229, 229);
+  padding: 14px;
+  margin-left: 10px;
+  color: black;
+}
+.card p {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card ul li {
+  margin-bottom: 6px;
+}
+
+.card ul li a {
+  text-decoration: none;
+  color: rgb(19, 18, 18);
+}
