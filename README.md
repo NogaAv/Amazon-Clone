@@ -29,7 +29,8 @@ HTML + CSS + Vanilla-JS project I made for deep understanding of the Frontend de
 ![Amazon-orders](https://github.com/user-attachments/assets/c098da41-5fa1-40bf-ac3d-83fd444b9913)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-![Amazon-order](https://github.com/user-attachments/assets/d2b67acc-0c63-410c-8e9b-4d0b3ec99197)
+![order](https://github.com/user-attachments/assets/33ba4530-f009-4995-aaab-4b24ec5dd87d)
+
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
